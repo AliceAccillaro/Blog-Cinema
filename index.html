@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Film Drive in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbarcustom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logocinema" src="./media/logocinema.png" alt="logocinema"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active textnavcustom me-3" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textnavcustom me-3" href="#">Scopri i film</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textnavcustom me-3" href="#">Autori</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textnavcustom me-3" href="./scriviconnoi.html">Scrivi con noi</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success bottoncustom" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header>
+        <h1 class="modak-regular mt-5">Film da Drive in</h1>
+        <div class="container imgheader">
+            <div id="carouselExampleIndicators" class="carousel slide carosellocustom mt-5">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./media/americangraffiti.jpg" class="d-block w-100" alt="americangraffiti">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./media/grease.jpg" class="d-block w-100" alt="grease">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./media/psycho.jpg" class="d-block w-100" alt="psycho">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row col-12">
+
+            <!-- prima card american graffiti-->
+            <div class="col-8 m-5">
+                <div class="card">
+
+                    <div class="row g-0">
+                        <!-- Immagine a sinistra -->
+                        <div class="col-md-4">
+                            <img src="./media/loghifilm/logoamericangraffiti.png" class="img-fluid rounded-start h-100"
+                                alt="logoamericangraffiti">
+                        </div>
+
+                        <!-- Testo a destra -->
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    In una notte d’estate del 1962, quattro amici appena diplomati girano per le strade
+                                    di una piccola città della California tra corse in auto, incontri e incertezze sul
+                                    futuro. Ognuno affronta dilemmi personali legati all’amore, all’identità e alla
+                                    partenza per il college. Quella notte segnerà la fine della loro adolescenza e
+                                    l’inizio di una nuova fase della vita.
+                                </p>
+                                <a href="https://www.rottentomatoes.com/m/american_graffiti"
+                                    class="btn bottoncustom d-flex justify-content-center">Scopri di più</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- seconda card grease-->
+            <div class="col-8 ms-auto m-5">
+                <div class="card">
+
+                    <div class="row g-0">
+
+                        <!-- Testo a sinistra -->
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Sandy e Danny si ritrovano inaspettatamente nella stessa scuola dopo una romantica
+                                    avventura estiva. Mentre cercano di riconciliarsi, devono fare i conti con le
+                                    pressioni dei rispettivi gruppi, Pink Ladies e T-Birds. Tra canzoni, gelosie e
+                                    cambiamenti, il loro amore troverà finalmente una strada.
+                                </p>
+                                <a href="https://www.rottentomatoes.com/m/grease"
+                                    class="btn bottoncustom align-item-end d-flex justify-content-center">Scopri di
+                                    più</a>
+                            </div>
+                        </div>
+                        <!-- Immagine a destra -->
+                        <div class="col-md-4">
+                            <img src="./media/loghifilm/logogrease.png" class="img-fluid rounded-end h-100"
+                                alt="logogrease">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- terza card psycho-->
+            <div class="col-8 m-5">
+                <div class="card">
+
+                    <div class="row g-0">
+                        <!-- Immagine a sinistra -->
+                        <div class="col-md-4">
+                            <img src="./media/loghifilm/logopsycho.png" class="img-fluid rounded-start h-100"
+                                alt="logopsycho">
+                        </div>
+
+                        <!-- Testo a destra -->
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Marion Crane fugge con del denaro rubato e si ferma per la notte al solitario Bates
+                                    Motel, gestito dal timido Norman Bates. La sua scomparsa porta un investigatore e i
+                                    suoi cari a indagare sul motel e sulla misteriosa “madre” di Norman. Le ricerche
+                                    sveleranno un inquietante segreto nascosto dietro la facciata del giovane.
+                                </p>
+                                <a href="https://www.rottentomatoes.com/m/psycho"
+                                    class="btn bottoncustom d-flex justify-content-center">Scopri di più</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-3 d-flex align-items-center"> <a href="/"
+                class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> </a>
+            <span class="mb-3 mb-md-0 text-body-secondary fs-3">© 2025 Company, Inc</span>
+        </div>
+        <div class="col-md-3 d-flex align-items-center"> <a href="/"
+                class="mb-3 me-2 mb-md-0 text-body-secondary fs-3 text-decoration-none lh-1" aria-label="Bootstrap"> </a>
+            <span class="mb-3 mb-md-0 text-body-secondary fs-3">About as Alice Accillaro</span>
+        </div>
+        <div class="col-md-3 d-flex align-items-center"> <a href="/"
+                class="mb-3 me-2 mb-md-0 text-body-secondary fs-3 text-decoration-none lh-1" aria-label="Bootstrap"> </a>
+            <span class="mb-3 mb-md-0 text-body-secondary fs-3">Par. Iva : 30000002000000</span>
+        </div>
+        <ul class="nav col-md-3 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram">
+                    <img src="./media/iconefooter/instagram.svg" alt="iconainstagram">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook">
+                    <img src="./media/iconefooter/facebook.svg" alt="iconafacebook">
+                </a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="bootstrap">
+                    <img src="./media/iconefooter/bootstrap-fill.svg" alt="iconabootstrap">
+                </a></li>
+        </ul>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
